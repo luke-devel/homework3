@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="text-center ">Password Generator</p>
+        </header>
+        <main>
+            <div id="form">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <label for="password">Password</label>
+                        <input class="form-control" id="password">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button class="btn btn-block btn-danger" onclick="setPassword()">New Password</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-block btn-success" onclick="copyPassword()">Copy Password</button>
+                    </div>
+                </div>
+            </div><br>
+        </main>
+        <div class="row">
+            <div class="col-lg-12 footer">
+                <p class="text-center copyright">Copyright © 2019 Luke Olson</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

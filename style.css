@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    position: relative;
+}
+
+.container header{
+    font-size: 40px;
+    font-family: 'Roboto';
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.col-lg-8 label {
+    font-size: 40px;
+    font-family: 'Roboto';
+}
+
+.col-lg-8 input {
+    width: 150%;
+}
